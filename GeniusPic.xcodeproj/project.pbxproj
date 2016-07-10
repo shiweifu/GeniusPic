@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6881D6741D31F3ED009CA323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6731D31F3ED009CA323 /* AppDelegate.swift */; };
+		6881D6761D31F3ED009CA323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6751D31F3ED009CA323 /* ViewController.swift */; };
+		6881D6781D31F3ED009CA323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6881D6771D31F3ED009CA323 /* Assets.xcassets */; };
+		6881D67B1D31F3ED009CA323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6881D6791D31F3ED009CA323 /* Main.storyboard */; };
+		6881D6861D31F3ED009CA323 /* GeniusPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6851D31F3ED009CA323 /* GeniusPicTests.swift */; };
+		6881D6911D31F3ED009CA323 /* GeniusPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6901D31F3ED009CA323 /* GeniusPicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6881D6821D31F3ED009CA323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6881D6681D31F3ED009CA323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6881D66F1D31F3ED009CA323;
+			remoteInfo = GeniusPic;
+		};
+		6881D68D1D31F3ED009CA323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6881D6681D31F3ED009CA323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6881D66F1D31F3ED009CA323;
+			remoteInfo = GeniusPic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6881D6701D31F3ED009CA323 /* GeniusPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6881D6731D31F3ED009CA323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6881D6751D31F3ED009CA323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6881D6771D31F3ED009CA323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6881D67A1D31F3ED009CA323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6881D67C1D31F3ED009CA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6881D6811D31F3ED009CA323 /* GeniusPicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6881D6851D31F3ED009CA323 /* GeniusPicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPicTests.swift; sourceTree = "<group>"; };
+		6881D6871D31F3ED009CA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6881D68C1D31F3ED009CA323 /* GeniusPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6881D6901D31F3ED009CA323 /* GeniusPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPicUITests.swift; sourceTree = "<group>"; };
+		6881D6921D31F3ED009CA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6881D66D1D31F3ED009CA323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881D67E1D31F3ED009CA323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881D6891D31F3ED009CA323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6881D6671D31F3ED009CA323 = {
+			isa = PBXGroup;
+			children = (
+				6881D6721D31F3ED009CA323 /* GeniusPic */,
+				6881D6841D31F3ED009CA323 /* GeniusPicTests */,
+				6881D68F1D31F3ED009CA323 /* GeniusPicUITests */,
+				6881D6711D31F3ED009CA323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6881D6711D31F3ED009CA323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6881D6701D31F3ED009CA323 /* GeniusPic.app */,
+				6881D6811D31F3ED009CA323 /* GeniusPicTests.xctest */,
+				6881D68C1D31F3ED009CA323 /* GeniusPicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6881D6721D31F3ED009CA323 /* GeniusPic */ = {
+			isa = PBXGroup;
+			children = (
+				6881D6731D31F3ED009CA323 /* AppDelegate.swift */,
+				6881D6751D31F3ED009CA323 /* ViewController.swift */,
+				6881D6771D31F3ED009CA323 /* Assets.xcassets */,
+				6881D6791D31F3ED009CA323 /* Main.storyboard */,
+				6881D67C1D31F3ED009CA323 /* Info.plist */,
+			);
+			path = GeniusPic;
+			sourceTree = "<group>";
+		};
+		6881D6841D31F3ED009CA323 /* GeniusPicTests */ = {
+			isa = PBXGroup;
+			children = (
+				6881D6851D31F3ED009CA323 /* GeniusPicTests.swift */,
+				6881D6871D31F3ED009CA323 /* Info.plist */,
+			);
+			path = GeniusPicTests;
+			sourceTree = "<group>";
+		};
+		6881D68F1D31F3ED009CA323 /* GeniusPicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6881D6901D31F3ED009CA323 /* GeniusPicUITests.swift */,
+				6881D6921D31F3ED009CA323 /* Info.plist */,
+			);
+			path = GeniusPicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6881D66F1D31F3ED009CA323 /* GeniusPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6881D6951D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPic" */;
+			buildPhases = (
+				6881D66C1D31F3ED009CA323 /* Sources */,
+				6881D66D1D31F3ED009CA323 /* Frameworks */,
+				6881D66E1D31F3ED009CA323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeniusPic;
+			productName = GeniusPic;
+			productReference = 6881D6701D31F3ED009CA323 /* GeniusPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6881D6801D31F3ED009CA323 /* GeniusPicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6881D6981D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPicTests" */;
+			buildPhases = (
+				6881D67D1D31F3ED009CA323 /* Sources */,
+				6881D67E1D31F3ED009CA323 /* Frameworks */,
+				6881D67F1D31F3ED009CA323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6881D6831D31F3ED009CA323 /* PBXTargetDependency */,
+			);
+			name = GeniusPicTests;
+			productName = GeniusPicTests;
+			productReference = 6881D6811D31F3ED009CA323 /* GeniusPicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6881D68B1D31F3ED009CA323 /* GeniusPicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6881D69B1D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPicUITests" */;
+			buildPhases = (
+				6881D6881D31F3ED009CA323 /* Sources */,
+				6881D6891D31F3ED009CA323 /* Frameworks */,
+				6881D68A1D31F3ED009CA323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6881D68E1D31F3ED009CA323 /* PBXTargetDependency */,
+			);
+			name = GeniusPicUITests;
+			productName = GeniusPicUITests;
+			productReference = 6881D68C1D31F3ED009CA323 /* GeniusPicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6881D6681D31F3ED009CA323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shiweifu;
+				TargetAttributes = {
+					6881D66F1D31F3ED009CA323 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6881D6801D31F3ED009CA323 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6881D66F1D31F3ED009CA323;
+					};
+					6881D68B1D31F3ED009CA323 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6881D66F1D31F3ED009CA323;
+					};
+				};
+			};
+			buildConfigurationList = 6881D66B1D31F3ED009CA323 /* Build configuration list for PBXProject "GeniusPic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6881D6671D31F3ED009CA323;
+			productRefGroup = 6881D6711D31F3ED009CA323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6881D66F1D31F3ED009CA323 /* GeniusPic */,
+				6881D6801D31F3ED009CA323 /* GeniusPicTests */,
+				6881D68B1D31F3ED009CA323 /* GeniusPicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6881D66E1D31F3ED009CA323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6881D6781D31F3ED009CA323 /* Assets.xcassets in Resources */,
+				6881D67B1D31F3ED009CA323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881D67F1D31F3ED009CA323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881D68A1D31F3ED009CA323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6881D66C1D31F3ED009CA323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6881D6761D31F3ED009CA323 /* ViewController.swift in Sources */,
+				6881D6741D31F3ED009CA323 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881D67D1D31F3ED009CA323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6881D6861D31F3ED009CA323 /* GeniusPicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881D6881D31F3ED009CA323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6881D6911D31F3ED009CA323 /* GeniusPicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6881D6831D31F3ED009CA323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6881D66F1D31F3ED009CA323 /* GeniusPic */;
+			targetProxy = 6881D6821D31F3ED009CA323 /* PBXContainerItemProxy */;
+		};
+		6881D68E1D31F3ED009CA323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6881D66F1D31F3ED009CA323 /* GeniusPic */;
+			targetProxy = 6881D68D1D31F3ED009CA323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6881D6791D31F3ED009CA323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6881D67A1D31F3ED009CA323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6881D6931D31F3ED009CA323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6881D6941D31F3ED009CA323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6881D6961D31F3ED009CA323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeniusPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dollop.GeniusPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6881D6971D31F3ED009CA323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeniusPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dollop.GeniusPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6881D6991D31F3ED009CA323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeniusPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dollop.GeniusPicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeniusPic.app/Contents/MacOS/GeniusPic";
+			};
+			name = Debug;
+		};
+		6881D69A1D31F3ED009CA323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeniusPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dollop.GeniusPicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeniusPic.app/Contents/MacOS/GeniusPic";
+			};
+			name = Release;
+		};
+		6881D69C1D31F3ED009CA323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeniusPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dollop.GeniusPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeniusPic;
+			};
+			name = Debug;
+		};
+		6881D69D1D31F3ED009CA323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeniusPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dollop.GeniusPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeniusPic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6881D66B1D31F3ED009CA323 /* Build configuration list for PBXProject "GeniusPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6881D6931D31F3ED009CA323 /* Debug */,
+				6881D6941D31F3ED009CA323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6881D6951D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6881D6961D31F3ED009CA323 /* Debug */,
+				6881D6971D31F3ED009CA323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6881D6981D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6881D6991D31F3ED009CA323 /* Debug */,
+				6881D69A1D31F3ED009CA323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6881D69B1D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6881D69C1D31F3ED009CA323 /* Debug */,
+				6881D69D1D31F3ED009CA323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6881D6681D31F3ED009CA323 /* Project object */;
+}
