@@ -13,6 +13,10 @@
 		6881D67B1D31F3ED009CA323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6881D6791D31F3ED009CA323 /* Main.storyboard */; };
 		6881D6861D31F3ED009CA323 /* GeniusPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6851D31F3ED009CA323 /* GeniusPicTests.swift */; };
 		6881D6911D31F3ED009CA323 /* GeniusPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6901D31F3ED009CA323 /* GeniusPicUITests.swift */; };
+		6881D6A31D31F735009CA323 /* DPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A21D31F735009CA323 /* DPRequest.swift */; };
+		6881D6A41D31F735009CA323 /* DPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A21D31F735009CA323 /* DPRequest.swift */; };
+		6881D6A61D31F871009CA323 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A51D31F871009CA323 /* Ext.swift */; };
+		6881D6A71D31F871009CA323 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A51D31F871009CA323 /* Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		6881D68C1D31F3ED009CA323 /* GeniusPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6881D6901D31F3ED009CA323 /* GeniusPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPicUITests.swift; sourceTree = "<group>"; };
 		6881D6921D31F3ED009CA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6881D6A21D31F735009CA323 /* DPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPRequest.swift; sourceTree = "<group>"; };
+		6881D6A51D31F871009CA323 /* Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		6881D6721D31F3ED009CA323 /* GeniusPic */ = {
 			isa = PBXGroup;
 			children = (
+				6881D6A11D31F6FF009CA323 /* Helper */,
 				6881D6731D31F3ED009CA323 /* AppDelegate.swift */,
 				6881D6751D31F3ED009CA323 /* ViewController.swift */,
 				6881D6771D31F3ED009CA323 /* Assets.xcassets */,
@@ -120,6 +127,15 @@
 				6881D6921D31F3ED009CA323 /* Info.plist */,
 			);
 			path = GeniusPicUITests;
+			sourceTree = "<group>";
+		};
+		6881D6A11D31F6FF009CA323 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6881D6A21D31F735009CA323 /* DPRequest.swift */,
+				6881D6A51D31F871009CA323 /* Ext.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6881D6761D31F3ED009CA323 /* ViewController.swift in Sources */,
+				6881D6A61D31F871009CA323 /* Ext.swift in Sources */,
+				6881D6A31D31F735009CA323 /* DPRequest.swift in Sources */,
 				6881D6741D31F3ED009CA323 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6881D6861D31F3ED009CA323 /* GeniusPicTests.swift in Sources */,
+				6881D6A41D31F735009CA323 /* DPRequest.swift in Sources */,
+				6881D6A71D31F871009CA323 /* Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
