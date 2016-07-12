@@ -63,18 +63,23 @@ class DPRequest: NSObject {
     
     let sessionCallback: HTTPSessionCallback = {(data: NSData?, resp: NSURLResponse?, err: NSError?) -> Void in
       
-      if(self.parseType == .JSON) {
-        
-        do {
-         let jsonObj = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions(rawValue: 0))
-         self.callback(jsonObj as! NSDictionary)
+      if let data = data {
+        if(self.parseType == .JSON) {
+          
+          do {
+            let jsonObj = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0))
+            self.callback(jsonObj as! NSDictionary)
+          }
+            
+          catch { }
         }
-        
-        catch { }
+        else if(self.parseType == .STRING) {
+          let strObj = NSString(data: data, encoding: NSUTF8StringEncoding)
+          self.callback(strObj!)
+        }
       }
-      else if(self.parseType == .STRING) {
-        let strObj = NSString(data: data!, encoding: NSUTF8StringEncoding)
-        self.callback(strObj!)
+      else {
+        print("错误：" + err!.description)
       }
     }
     

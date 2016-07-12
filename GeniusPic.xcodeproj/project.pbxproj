@@ -17,6 +17,9 @@
 		6881D6A41D31F735009CA323 /* DPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A21D31F735009CA323 /* DPRequest.swift */; };
 		6881D6A61D31F871009CA323 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A51D31F871009CA323 /* Ext.swift */; };
 		6881D6A71D31F871009CA323 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6A51D31F871009CA323 /* Ext.swift */; };
+		6881D6C71D33AD22009CA323 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6C51D33AD22009CA323 /* MasterViewController.swift */; };
+		6881D6C81D33AD22009CA323 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6881D6C61D33AD22009CA323 /* MasterViewController.xib */; };
+		6881D6CA1D33AD62009CA323 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6881D6C91D33AD62009CA323 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		6881D6921D31F3ED009CA323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6881D6A21D31F735009CA323 /* DPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPRequest.swift; sourceTree = "<group>"; };
 		6881D6A51D31F871009CA323 /* Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		6881D6C51D33AD22009CA323 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		6881D6C61D33AD22009CA323 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		6881D6C91D33AD62009CA323 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		6881D6721D31F3ED009CA323 /* GeniusPic */ = {
 			isa = PBXGroup;
 			children = (
+				6881D6C91D33AD62009CA323 /* MainMenu.xib */,
+				6881D6C51D33AD22009CA323 /* MasterViewController.swift */,
+				6881D6C61D33AD22009CA323 /* MasterViewController.xib */,
 				6881D6A11D31F6FF009CA323 /* Helper */,
 				6881D6731D31F3ED009CA323 /* AppDelegate.swift */,
 				6881D6751D31F3ED009CA323 /* ViewController.swift */,
@@ -244,6 +253,8 @@
 			files = (
 				6881D6781D31F3ED009CA323 /* Assets.xcassets in Resources */,
 				6881D67B1D31F3ED009CA323 /* Main.storyboard in Resources */,
+				6881D6C81D33AD22009CA323 /* MasterViewController.xib in Resources */,
+				6881D6CA1D33AD62009CA323 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6881D6C71D33AD22009CA323 /* MasterViewController.swift in Sources */,
 				6881D6761D31F3ED009CA323 /* ViewController.swift in Sources */,
 				6881D6A61D31F871009CA323 /* Ext.swift in Sources */,
 				6881D6A31D31F735009CA323 /* DPRequest.swift in Sources */,
@@ -495,6 +507,7 @@
 				6881D6971D31F3ED009CA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6881D6981D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPicTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +516,7 @@
 				6881D69A1D31F3ED009CA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6881D69B1D31F3ED009CA323 /* Build configuration list for PBXNativeTarget "GeniusPicUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +525,7 @@
 				6881D69D1D31F3ED009CA323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

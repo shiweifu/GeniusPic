@@ -10,18 +10,45 @@ import Cocoa
 
 extension NSApplication {
   
-  static func base64(data: NSData) -> String {
-    return data.base64EncodedStringWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
+  func uploadImage(img: NSImage) -> Void {
   }
   
-  func uploadImage(img: NSImage) -> Void {
+  static func writeToPasteboard(str: String) -> Void {
+
+    let pasteboard = NSPasteboard.generalPasteboard()
+    pasteboard.clearContents()
+    pasteboard.writeObjects([str])
+    
+  }
+  
+  static func alertInfo(str: String) -> Void {
+    let alert = NSAlert()
+    alert.informativeText = str
+    alert.runModal()
+  }
+}
+
+extension NSData {
+  func base64() -> NSData {
+    return self.base64EncodedDataWithOptions(NSDataBase64EncodingOptions(rawValue: 0))
   }
 }
 
 extension NSImage {
-  func base64() -> NSString {
-    let data = self.TIFFRepresentation
-    return NSApplication.base64(data!)
+  
+  func PNGRepresentationOfImage() -> NSData {
+    // Create a bitmap representation from the current image
+    let image = self
+    image.lockFocus()
+    let bitmapRep: NSBitmapImageRep? = NSBitmapImageRep(focusedViewRect: NSMakeRect(0, 0, image.size.width, image.size.height))
+    image.unlockFocus()
+    let result = bitmapRep!.representationUsingType(NSBitmapImageFileType.NSPNGFileType, properties: [:])!
+    return result
+  }
+  
+  func base64() -> NSData {
+    let data = self.PNGRepresentationOfImage()
+    return data.base64()
   }
 }
 
@@ -30,5 +57,3 @@ extension String {
     return self.dataUsingEncoding(NSUTF8StringEncoding)
   }
 }
-
-

@@ -22,7 +22,7 @@ class GeniusPicTests: XCTestCase {
     func testBase64() {
       let s = "hello world"
       let plainData = s.dataUsingEncoding(NSUTF8StringEncoding)!
-      let result = NSApplication.base64(plainData)
+      let result = plainData.base64()
       XCTAssertEqual("aGVsbG8gd29ybGQ=", result)
     }
   
