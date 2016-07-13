@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a730c91-7f22-469e-b653-e0b3975c590f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeniusPic/Helper/DPRequest.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GeniusPic/Helper/Ext.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeniusPic.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/GeniusPic.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeniusPic.xcodeproj/xcuserdata/shiweifu.xcuserdatad/xcschemes/GeniusPic.xcscheme" afterPath="$PROJECT_DIR$/GeniusPic.xcodeproj/xcuserdata/shiweifu.xcuserdatad/xcschemes/GeniusPic.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeniusPic/AppDelegate.swift" afterPath="$PROJECT_DIR$/GeniusPic/AppDelegate.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeniusPic/ViewController.swift" afterPath="$PROJECT_DIR$/GeniusPic/ViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeniusPicTests/GeniusPicTests.swift" afterPath="$PROJECT_DIR$/GeniusPicTests/GeniusPicTests.swift" />
-    </list>
+    <list default="true" id="7a730c91-7f22-469e-b653-e0b3975c590f" name="Default" comment="" />
     <ignored path="GeniusPic.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +34,8 @@
       <file leaf-file-name="DPRequest.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GeniusPic/Helper/DPRequest.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="1501">
+              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -177,6 +168,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7a730c91-7f22-469e-b653-e0b3975c590f" name="Default" comment="" />
@@ -211,6 +205,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -229,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GeniusPic/Helper/DPRequest.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="1501">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
           <folding />
         </state>
       </provider>
