@@ -8,9 +8,42 @@
 
 import Cocoa
 
+typealias UploadSucessCallback = (String, NSError?) -> Void
+
 extension NSApplication {
   
-  func uploadImage(img: NSImage) -> Void {
+  static func uploadImage(img: NSImage, callback: UploadSucessCallback) -> Void {
+   
+    let setting = NSApplication.readPlistWithResource("Setting")
+    
+    let leanCloudID  = setting!["LeanCloudID"]!
+    let leanCloudKey = setting!["LeanCloudKey"]!
+    
+    let jsonCallback: DPRCallback = {(obj) in
+      print(obj)
+      
+      if let url = obj["url"] {
+        callback(url as! String, nil)
+      }
+      else {
+        let err = NSError(domain: "leanCloud", code: 0, userInfo: ["errMsg": "上传失败"])
+        callback("", err)
+      }
+    }
+    
+    let img = img
+    
+    let url = "https://api.leancloud.cn/1.1/files/hp.jpg"
+    
+    let req = DPRequest(url:url, method: .POST, parseType: .JSON, callback:jsonCallback)
+    req.httpHeaders["Content-Type"] = "image/jpeg"
+    req.httpHeaders["X-LC-Id"]  = leanCloudID
+    req.httpHeaders["X-LC-Key"] = leanCloudKey
+    
+    req.postData = img.imageJPEGRepresentation
+    req.startAsync()
+    
+    
   }
   
   static func writeToPasteboard(str: String) -> Void {
@@ -19,6 +52,17 @@ extension NSApplication {
     pasteboard.clearContents()
     pasteboard.writeObjects([str])
     
+  }
+  
+  static func readPlistWithResource(name: String) -> [String:String]? {
+    let path = NSBundle.mainBundle().pathForResource(name, ofType: "plist")
+    
+    guard let settingPath = path else {
+      return nil
+    }
+   
+    let result = NSDictionary(contentsOfFile: settingPath)
+    return result as? [String: String]
   }
   
   static func alertInfo(str: String) -> Void {
@@ -44,6 +88,11 @@ extension NSImage {
     image.unlockFocus()
     let result = bitmapRep!.representationUsingType(NSBitmapImageFileType.NSPNGFileType, properties: [:])!
     return result
+  }
+  
+  
+  var imageJPEGRepresentation: NSData {
+    return NSBitmapImageRep(data: TIFFRepresentation!)!.representationUsingType(.NSJPEGFileType, properties: [:])!
   }
   
   func base64() -> NSData {

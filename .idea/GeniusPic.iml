@@ -2,19 +2,19 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/GeniusPicUITests/GeniusPicUITests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GeniusPicUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPicTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPicTests/GeniusPicTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GeniusPicUITests/GeniusPicUITests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GeniusPicUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/MasterViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/MasterViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/Helper/DPRequest.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/Helper/Ext.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GeniusPic/MainMenu.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GeniusPic/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GeniusPic/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GeniusPic/MainMenu.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GeniusPic/Base.lproj/Main.storyboard" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

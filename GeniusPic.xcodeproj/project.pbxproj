@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686DDA331D3665BB009B9F66 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 686DDA321D3665BB009B9F66 /* Setting.plist */; };
+		686DDA341D3665BB009B9F66 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 686DDA321D3665BB009B9F66 /* Setting.plist */; };
 		6881D6741D31F3ED009CA323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6731D31F3ED009CA323 /* AppDelegate.swift */; };
 		6881D6761D31F3ED009CA323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6881D6751D31F3ED009CA323 /* ViewController.swift */; };
 		6881D6781D31F3ED009CA323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6881D6771D31F3ED009CA323 /* Assets.xcassets */; };
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		686DDA321D3665BB009B9F66 /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
 		6881D6701D31F3ED009CA323 /* GeniusPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6881D6731D31F3ED009CA323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6881D6751D31F3ED009CA323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +119,7 @@
 				6881D6771D31F3ED009CA323 /* Assets.xcassets */,
 				6881D6791D31F3ED009CA323 /* Main.storyboard */,
 				6881D67C1D31F3ED009CA323 /* Info.plist */,
+				686DDA321D3665BB009B9F66 /* Setting.plist */,
 			);
 			path = GeniusPic;
 			sourceTree = "<group>";
@@ -251,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686DDA331D3665BB009B9F66 /* Setting.plist in Resources */,
 				6881D6781D31F3ED009CA323 /* Assets.xcassets in Resources */,
 				6881D67B1D31F3ED009CA323 /* Main.storyboard in Resources */,
 				6881D6C81D33AD22009CA323 /* MasterViewController.xib in Resources */,
@@ -262,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686DDA341D3665BB009B9F66 /* Setting.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
